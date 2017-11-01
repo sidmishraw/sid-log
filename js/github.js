@@ -1,3 +1,13 @@
+/**
+* github.js
+* @author Sidharth Mishra
+* @description Fetches my current projects(repo) from GitHub and renders them in GitHub's pinned repo like fashion.
+* @created Tue Oct 31 2017 16:08:55 GMT-0700 (PDT)
+* @copyright 2017 Sidharth Mishra
+* @last-modified Tue Oct 31 2017 20:28:46 GMT-0700 (PDT)
+*/
+
+
 "use strict";
 
 $.noConflict();
