@@ -21,7 +21,7 @@ tsc *.ts --watch --target ES5
 
 ## strict mode:
 
-```typescript
+```javascript
 "using strict";
 ```
 

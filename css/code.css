@@ -99,4 +99,5 @@ td.sourceCode {
 .bash-shell {
   background-color: black;
   color: white;
+  overflow: auto;
 }
