@@ -1,0 +1,22 @@
+/**
+* styles.css
+* @author Sidharth Mishra
+* @description CSS styling for GitLang cards components
+* @created Fri Nov 03 2017 23:44:03 GMT-0700 (PDT)
+* @copyright 2017 Sidharth Mishra
+* @last-modified Fri Nov 03 2017 23:44:03 GMT-0700 (PDT)
+*/
+
+.left-color-img {
+  border-radius: 2px 0 0 2px;
+  max-width: 100%;
+  width: 47px;
+  height: 190px;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  border: 0;
+}

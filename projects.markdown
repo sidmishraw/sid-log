@@ -18,5 +18,10 @@ Following is a condensed list of all my projects. Feel free to browse them on [G
 
 You can get in touch with me through [email](mailto://sidmishraw@gmail.com).
 </div>
+
+<!-- Scripts for React.js components -->
 <script src="/js/github-like.bundle.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/gitlangcards.bundle.js"></script>
 <script src="/js/projects.js"></script>
+<!-- Scripts for React.js components -->
