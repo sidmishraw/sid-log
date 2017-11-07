@@ -1,28 +1,66 @@
----
-title: Home
----
+<meta key="title" value="Home">
 
-<img src="/images/haskell-logo.png" style="float: right; margin: 20px; border-radius: 30px;" />
-
-<p>Welcome to my blog!</p>
-
-<p>
-  <code class="sourceCode haskell">
-      I log info about stuff that interests me in here.
-  </code>
-</p>
-
-<p>I've reproduced a list of recent posts here for your reading pleasure:</p>
-
-<h2>Posts</h2>
-<ul>
-  $for(posts)$
-  <li>
-    <a href="$url$">$title$</a> - &nbsp; $date$
-  </li>
-  <p></p>
-  $endfor$
-  </table>
-
-  <p>…or you can find more in the
-    <a href="/archive.html">archives</a>.</p>
+<div class="row">
+  <div class="col s9 m7 l8">
+    <div class="row">
+      <div class="col s12">
+        <p class="flow-text font-size-12">
+          <span>
+            Welcome to my blog!
+          </span>
+          <br>
+          <br>
+          <span class="flow-text">
+            I log info about stuff that interests me in here.
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <p class="flow-text">I've reproduced a list of recent posts here for your reading pleasure:</p>
+      </div>
+    </div>
+  </div>
+  <div class="col s3 m5 l4">
+    <img src="/images/sidmishraw.png" class="responsive-img z-depth-5" />
+  </div>
+</div>
+<div class="row">
+  <div class="col s12">
+    <div class="row">
+      <div class="col s12">
+        <h2>Posts</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <ul>
+          $for(posts)$
+          <li>
+            <div class="row">
+              <div class="col s8 z-depth-4">
+                <a href="$url$">
+                  <p class="flow-text center-align">$title$</p>
+                </a>
+              </div>
+              <div class="col s4 z-depth-3">
+                <p class="flow-text"> $date$</p>
+              </div>
+            </div>
+          </li>
+          <p></p>
+          $endfor$
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="s12">
+    <p class="flow-text">
+      …or you can find more in the
+      <a href="/archive.html">archives</a>.
+    </p>
+  </div>
+</div>

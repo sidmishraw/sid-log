@@ -1,12 +1,28 @@
-<table>
-    $for(posts)$
-    <tr>
-        <td style="width: 75%;">
-            <a href="$url$">$title$</a>
-        </td>
-        <td>- &nbsp; $date$ </td>
-    </tr>
-    <tr></tr>
-    <tr></tr>
-    $endfor$
-</table>
+<div class="row">
+    <div class="col s12">
+        <div class="row">
+            <div class="col s7  z-depth-4">
+                <p class="flow-text center-align">
+                    <strong>Title</strong>
+                </p>
+            </div>
+            <div class="col s5  z-depth-3">
+                <p class="flow-text center-align">
+                    <strong>Date Published</strong>
+                </p>
+            </div>
+        </div>
+        $for(posts)$
+        <div class="row">
+            <div class="col s7  z-depth-4">
+                <a href="$url$">
+                    <p class="flow-text center-align">$title$</p>
+                </a>
+            </div>
+            <div class="col s5  z-depth-3">
+                <p class="flow-text center-align">$date$</p>
+            </div>
+        </div>
+        $endfor$
+    </div>
+</div>

@@ -19,9 +19,9 @@ After I rebooted my system, there was only the CentOS bar thingy (in the screens
 
 1. Switch off the `warden` service.
   
-  ```bash-shell
-  service mapr-warden stop
-  ```
+```bash-shell
+service mapr-warden stop
+```
 
 2. The memory consumption is tuned by updating the following properties in `warden.conf` file to the new values.
 
@@ -51,6 +51,6 @@ service.command.zk.heapsize.min=128
 
 3. Switch on the `warden` service.
 
-  ```bash-shell
-  service mapr-warden start
-  ```
+```bash-shell
+service mapr-warden start
+```

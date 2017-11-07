@@ -20,3 +20,15 @@
   display: block;
   border: 0;
 }
+
+/*For making footer sticky -- problem for IE*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+/*For making footer sticky -- problem for IE*/
