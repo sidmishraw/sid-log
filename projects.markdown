@@ -24,7 +24,7 @@ title: Projects
 
 <div class="row">
 <div class="col s12">
-<p class="flow-text">Following is a condensed list of all my projects. Feel free to browse them on [GitHub](https://github.com/sidmishraw/).</p>
+<p class="flow-text">Following is a condensed list of all of my projects. Feel free to browse them on [GitHub](https://github.com/sidmishraw/).</p>
 </div>
 </div>
 
